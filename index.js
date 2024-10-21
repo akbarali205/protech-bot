@@ -11,8 +11,8 @@ bot.onText(/\/start/, (msg) => {
             inline_keyboard: [
                 [
                     {
-                        text: 'Web Appni Ocha olish',
-                        url: 'https://proteach.uz/',
+                        text: 'Web app!',
+                        web_app: {url: 'https://proteach.uz/'},
                     },
                 ],
             ],
